@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pizza1">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2a2a2a"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmar"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:background="#000000"/>/>
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:background="#000000"/>/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Codigo:"
+        android:textSize="30dp"
+        android:textColor="#000000"/>/>
+
+    <EditText
+        android:id="@+id/edtCodigo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textSize="30dp"
+        android:textColor="#000000"/>/>
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço:"
+        android:textSize="30dp"
+        android:textColor="#000000"/>/>
+
+    <EditText
+        android:id="@+id/edtPreco"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
